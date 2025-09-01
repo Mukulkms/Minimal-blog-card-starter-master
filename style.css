@@ -15,40 +15,46 @@ html,body{
     align-items: center;
     height: 100vh;
     width: 100%;
+    background-color: #FAFAFA;
 }
 .card{
     display: block;
     height: auto;
     width: 368px;
     border-radius: 12px;
-    padding: 16px 16px 20px 16px;
     box-shadow: 8px 10px 10px 5px rgba(8, 8, 8, 0.066);
 }
-.card img{
+.imgcont{
+    padding: 16px;
+}
+.imgcont img{
     height: 152px;
     width: 100%;
-    border-radius: 6px;
+    border-radius: 12px;
 }
 .caption{
     font-family: sans-serif;
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-top: 10px;
+    margin: 0 16px;
     border-radius: 15px;
     height: 20px;
     width: 60px;
-    color: rgb(107, 0, 128);
-    background-color: rgb(252, 235, 254);
+    color: #883AE1;
+    background-color: #E6D6FC;
 }
 h3{
-    margin: 16px 0 0 0;
+    padding:16px 16px 6px 16px ;
     font-family:sans-serif;
+    color: #20293A;
 }
 p{
     font-size: 1rem;
-    margin: 6px 0 20px 0;
-    color: rgba(0, 0, 0, 0.477);
+    line-height: 1.5rem;
+    padding: 0 16px 0 16px;
+    margin-bottom: 20px;
+    color: rgba(0, 0, 0, 0.567);
     font-family:sans-serif;
     font-weight: 100;
 }
@@ -56,7 +62,8 @@ p{
     display: flex;
     justify-items: end;
     align-items:baseline;
-    margin: 20px  0 0 0;
+    border-top: #20293a66 1px solid;
+    padding-bottom: 20px;
 }
 .name p{
     font-size: 0.9rem;
