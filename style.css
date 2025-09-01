@@ -59,13 +59,12 @@ p{
     font-weight: 100;
 }
 .name{
-    display: flex;
-    justify-items: end;
-    align-items:baseline;
-    border-top: #20293a3a 1px solid;
+    display: block;
+    border-top: #20293a15 2px solid;
     padding-bottom: 20px;
 }
 .name p{
-    font-size: 0.9rem;
-    margin: 20px 0 0 0;
+    font-size: 0.8rem;
+    font-weight: 400;
+    margin: 16px 0 0 0;
 }
