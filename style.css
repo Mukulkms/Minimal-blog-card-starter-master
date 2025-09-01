@@ -22,7 +22,7 @@ html,body{
     height: auto;
     width: 368px;
     border-radius: 12px;
-    box-shadow: 8px 10px 10px 5px rgba(8, 8, 8, 0.066);
+    box-shadow: 8px 10px 10px 5px rgba(8, 8, 8, 0.052);
 }
 .imgcont{
     padding: 16px;
@@ -62,7 +62,7 @@ p{
     display: flex;
     justify-items: end;
     align-items:baseline;
-    border-top: #20293a66 1px solid;
+    border-top: #20293a3a 1px solid;
     padding-bottom: 20px;
 }
 .name p{
